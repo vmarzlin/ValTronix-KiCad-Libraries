@@ -1,0 +1,829 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4001
+D 50V 1A General Purpose Rectifier Diode, DO-41
+K diode
+F http://www.vishay.com/docs/88503/1n4001.pdf
+$ENDCMP
+#
+$CMP 1N4002
+D 100V 1A General Purpose Rectifier Diode, DO-41
+K diode
+F http://www.vishay.com/docs/88503/1n4001.pdf
+$ENDCMP
+#
+$CMP 1N4003
+D 200V 1A General Purpose Rectifier Diode, DO-41
+K diode
+F http://www.vishay.com/docs/88503/1n4001.pdf
+$ENDCMP
+#
+$CMP 1N4004
+D 400V 1A General Purpose Rectifier Diode, DO-41
+K diode
+F http://www.vishay.com/docs/88503/1n4001.pdf
+$ENDCMP
+#
+$CMP 1N4005
+D 600V 1A General Purpose Rectifier Diode, DO-41
+K diode
+F http://www.vishay.com/docs/88503/1n4001.pdf
+$ENDCMP
+#
+$CMP 1N4006
+D 800V 1A General Purpose Rectifier Diode, DO-41
+K diode
+F http://www.vishay.com/docs/88503/1n4001.pdf
+$ENDCMP
+#
+$CMP 1N4007
+D 1000V 1A General Purpose Rectifier Diode, DO-41
+K diode
+F http://www.vishay.com/docs/88503/1n4001.pdf
+$ENDCMP
+#
+$CMP 2N2222
+D 600mA Ic, 40V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/P2N2222A-D.PDF
+$ENDCMP
+#
+$CMP 2N2907
+D -600mA Ic, -60V Vce, PNP Transistor, TO-92
+K PNP Transistor
+F https://www.onsemi.com/pub/Collateral/P2N2907A-D.PDF
+$ENDCMP
+#
+$CMP 2N3905
+D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf
+$ENDCMP
+#
+$CMP 2N3906
+D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
+$ENDCMP
+#
+$CMP 2N5401
+D -600mA Ic, -150V Vce, PNP Transistor, TO-92
+K PNP Transistor
+F https://www.onsemi.com/pub/Collateral/2N5401-D.PDF
+$ENDCMP
+#
+$CMP 2N5551
+D 600mA Ic, 160V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/2N5551-D.PDF
+$ENDCMP
+#
+$CMP 7400
+D quad 2-input NAND gate
+K TTL nand 2-input
+F http://www.ti.com/lit/gpn/sn7400
+$ENDCMP
+#
+$CMP 74AHC1G14
+D Single Schmitt NOT Gate,HCMOS
+K Single Gate NOT Schmitt HCMOS
+$ENDCMP
+#
+$CMP 74AHCT1G14
+D Single Schmitt NOT Gate, HCMOS TTL
+K Single Gate NOT Schmitt HCMOS TTL
+$ENDCMP
+#
+$CMP 74AUC1G14
+D Single Schmitt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmitt LVC CMOS
+$ENDCMP
+#
+$CMP 74AUP1G14
+D Single Schmitt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmitt LVC CMOS
+$ENDCMP
+#
+$CMP 74HC00
+D quad 2-input NAND gate
+K HCMOS nand 2-input
+F http://www.ti.com/lit/gpn/sn74hc00
+$ENDCMP
+#
+$CMP 74HC21D
+D Dual 4-input AND gate, HCMOS, SOIC
+K CMOS And4
+F https://assets.nexperia.com/documents/data-sheet/74HC21.pdf
+$ENDCMP
+#
+$CMP 74HCT00
+D quad 2-input NAND gate
+K HCTMOS nand 2-input
+F http://www.ti.com/lit/gpn/sn74hct00
+$ENDCMP
+#
+$CMP 74LS00
+D quad 2-input NAND gate
+K TTL nand 2-input
+F http://www.ti.com/lit/gpn/sn74ls00
+$ENDCMP
+#
+$CMP 74LS37
+D quad 2-input NAND buffer
+K TTL nand 2-input buffer
+F http://www.ti.com/lit/gpn/sn74ls37
+$ENDCMP
+#
+$CMP 74LVC1G14
+D Single Schmitt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmitt LVC CMOS
+F https://www.diodes.com/assets/Datasheets/74LVC1G14.pdf
+$ENDCMP
+#
+$CMP ACS712xLCTR-20A
+D ±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS712xLCTR-30A
+D ±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS713xLCTR-20A
+D 20A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS713-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS713xLCTR-30A
+D 30A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 133mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS713-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS714xLCTR-05B
+D ±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS714-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS714xLCTR-20A
+D ±20A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 100mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS714-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS714xLCTR-30A
+D ±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS714-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS714xLCTR-50A
+D ±50A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS714-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS715xLCTR-20A
+D 20A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS715-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS715xLCTR-30A
+D 30A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 133mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS715-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS724xLCTR-05AB
+D ±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 400mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS724xLCTR-10AB
+D ±10A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 200mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS724xLCTR-10AU
+D 10A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 400mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS724xLCTR-20AB
+D ±20A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 100mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS724xLCTR-20AU
+D 20A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 200mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS724xLCTR-30AB
+D ±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS724xLCTR-30AU
+D 30A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 133mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS724xLCTR-50AB
+D ±50A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS725xLCTR-10AU
+D 10A Unidirectional Hall-Effect Current Sensor, +3.3V supply, 264mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS725xLCTR-20AB
+D ±20A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 66mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS725xLCTR-20AU
+D 20A Unidirectional Hall-Effect Current Sensor, +3.3V supply, 132mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS725xLCTR-30AB
+D ±30A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 44mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS725xLCTR-30AU
+D 30A Unidirectional Hall-Effect Current Sensor, +3.3V supply, 88mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS725xLCTR-40AB
+D ±40A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 33mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS725xLCTR-50AB
+D ±50A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 26.4mV/A, SOIC-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP AMS1117-1.2
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-2.5
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-3.3
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-5.0
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-ADJ
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP B2B-XH-2
+D JST XH, single row, 01x02, vertical
+K connector
+F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
+$ENDCMP
+#
+$CMP B2B-XH-3
+D JST XH, single row, 01x03, vertical
+K connector
+F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
+$ENDCMP
+#
+$CMP B2B-XH-4
+D JST XH, single row, 01x04, vertical
+K connector
+F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
+$ENDCMP
+#
+$CMP B2B-XH-5
+D JST XH, single row, 01x05, vertical
+K connector
+F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
+$ENDCMP
+#
+$CMP BA157
+D 400V 1A Fast recovery Rectifier Diode, DO-41
+K diode
+F http://diotec.com/tl_files/diotec/files/pdf/datasheets/ba157
+$ENDCMP
+#
+$CMP BA158
+D 600V 1A Fast recovery Rectifier Diode, DO-41
+K diode
+F http://diotec.com/tl_files/diotec/files/pdf/datasheets/ba157
+$ENDCMP
+#
+$CMP BA159
+D 1000V 1A Fast recovery Rectifier Diode, DO-41
+K diode
+F http://diotec.com/tl_files/diotec/files/pdf/datasheets/ba157
+$ENDCMP
+#
+$CMP BAS40
+D 40V 0.2A Single Small Signal Schottky Diode, SOT-23
+K Schottky Diode
+F https://www.diodes.com/assets/Datasheets/ds11006.pdf
+$ENDCMP
+#
+$CMP BAS40-04
+D 40V 0.2A Dual Small Signal Schottky Diodes
+K Schottky Diode
+F https://www.diodes.com/assets/Datasheets/ds11006.pdf
+$ENDCMP
+#
+$CMP BAS40-05
+D 40V 0.2A Dual Small Signal Schottky Diodes, SOT-23
+K Schottky Diode
+F https://www.diodes.com/assets/Datasheets/ds11006.pdf
+$ENDCMP
+#
+$CMP BAS40-06
+D 40V 0.2A Dual Small Signal Schottky Diodes, SOT-23
+K Schottky Diode
+F https://www.diodes.com/assets/Datasheets/ds11006.pdf
+$ENDCMP
+#
+$CMP BD48xxG
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP5
+K voltage detector open drain SSOP5
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-e.pdf
+$ENDCMP
+#
+$CMP BD49xxG
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP5
+K voltage detector CMOS SSOP5
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-e.pdf
+$ENDCMP
+#
+$CMP BT139B-600
+D 16A RMS, 600V Off-State Voltage, Triac, D2-PAK
+K Triac
+F https://www.mouser.fr/datasheet/2/848/bt139b-600f-1520191.pdf
+$ENDCMP
+#
+$CMP BT139B-800
+D 16A RMS, 800V Off-State Voltage, Triac, D2-PAK
+K Triac
+F https://www.mouser.fr/datasheet/2/848/bt139b-600f-1520191.pdf
+$ENDCMP
+#
+$CMP BTA24-600B
+D 25A RMS, 600V Off-State Voltage, Triac, TO-220 (insulated tab)
+K Triac
+F https://www.st.com/resource/en/datasheet/bta24.pdf
+$ENDCMP
+#
+$CMP BTA24-800B
+D 25A RMS, 800V Off-State Voltage, Triac, TO-220 (insulated tab)
+K Triac
+F https://www.st.com/resource/en/datasheet/bta24.pdf
+$ENDCMP
+#
+$CMP BZV55Cxxx
+D 500mW Zener Diode, 2.4-75V, 5%, MiniMELF
+K zener diode
+F https://www.mouser.fr/datasheet/2/395/BZV55C2V4_SERIES_G1804-1519273.pdf
+$ENDCMP
+#
+$CMP CD74HC4094
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCMOS SR 3State
+F http://www.ti.com/lit/ds/symlink/cd74hct4094.pdf
+$ENDCMP
+#
+$CMP CD74HCT4094
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCMOS TTL SR 3State
+F http://www.ti.com/lit/ds/symlink/cd74hct4094.pdf
+$ENDCMP
+#
+$CMP CMF-RL10
+D Littelfuse 150mA Telecom CPTC Resettable Fuse, 220V ac/dc, 10Ohms
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/pdfs/cmfrl.pdf
+$ENDCMP
+#
+$CMP CMF-RL25
+D Littelfuse 100mA Telecom CPTC Resettable Fuse, 220V ac/dc, 25Ohms
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/pdfs/cmfrl.pdf
+$ENDCMP
+#
+$CMP CMF-RL35
+D Littelfuse 75mA Telecom CPTC Resettable Fuse, 220V ac/dc, 35Ohms
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/pdfs/cmfrl.pdf
+$ENDCMP
+#
+$CMP CMF-RL50
+D Littelfuse 65mA Telecom CPTC Resettable Fuse, 220V ac/dc, 50Ohms
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/pdfs/cmfrl.pdf
+$ENDCMP
+#
+$CMP CMF-RL50A
+D Littelfuse 50mA Telecom CPTC Resettable Fuse, 220V ac/dc, 50Ohms
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/pdfs/cmfrl.pdf
+$ENDCMP
+#
+$CMP CMF-RL55
+D Littelfuse 65mA Telecom CPTC Resettable Fuse, 220V ac/dc, 55Ohms
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/pdfs/cmfrl.pdf
+$ENDCMP
+#
+$CMP CMF-RL55A
+D Littelfuse 50mA Telecom CPTC Resettable Fuse, 220V ac/dc, 55Ohms
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/pdfs/cmfrl.pdf
+$ENDCMP
+#
+$CMP DB22320
+D 30V 1.5A Schottky diode, SOD-123
+K diode Schottky
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2232000L_E.pdf
+$ENDCMP
+#
+$CMP DW01A
+D Li+ Battery Protection IC for Single Cell Pack, SOT-23-6
+K battery protection li-ion li-po
+F http://escooter.org.ua/_fr/1/DW01A-DS-10_EN.pdf
+$ENDCMP
+#
+$CMP EL817
+D DC Optocoupler, Vce 35V, DIP-4
+K NPN DC Optocoupler
+F http://www.everlight.com/file/ProductFile/EL817.pdf
+$ENDCMP
+#
+$CMP FS01xxDA
+D 0.8A Ion, 400V Voff, 5-200µA Igt, Silicon Controlled Rectifier (Thyristor), TO-92
+K SCR thyristor
+F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
+$ENDCMP
+#
+$CMP FS01xxMA
+D 0.8A Ion, 600V Voff, 5-200µA Igt, Silicon Controlled Rectifier (Thyristor), TO-92
+K SCR thyristor
+F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
+$ENDCMP
+#
+$CMP FS1610DH
+D 16A Ion, 400V Voff, 25mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
+K thyristor, SCR
+F https://www.fagorelectronica.com/images/download/semiconductor/fs16st.pdf
+$ENDCMP
+#
+$CMP FS1610MH
+D 16A Ion, 600V Voff, 25mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
+K thyristor, SCR
+F https://www.fagorelectronica.com/images/download/semiconductor/fs16st.pdf
+$ENDCMP
+#
+$CMP FS1610NH
+D 16A Ion, 800V Voff, 25mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
+K thyristor, SCR
+F https://www.fagorelectronica.com/images/download/semiconductor/fs16st.pdf
+$ENDCMP
+#
+$CMP FS1614DH
+D 16A Ion, 400V Voff, 40mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
+K thyristor, SCR
+F https://www.fagorelectronica.com/images/download/semiconductor/fs16st.pdf
+$ENDCMP
+#
+$CMP FS1614MH
+D 16A Ion, 600V Voff, 40mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
+K thyristor, SCR
+F https://www.fagorelectronica.com/images/download/semiconductor/fs16st.pdf
+$ENDCMP
+#
+$CMP FS1614NH
+D 16A Ion, 800V Voff, 40mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
+K thyristor, SCR
+F https://www.fagorelectronica.com/images/download/semiconductor/fs16st.pdf
+$ENDCMP
+#
+$CMP H11L1SM
+D Schmitt Trigger Output Optocoupler, High Speed, Open-Collector, SO-6, 1.6mA turn on threshold
+K High Speed Schmitt Optocoupler
+F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
+$ENDCMP
+#
+$CMP ICSP
+D Connector ICSP AVR-6
+K ICSP AVR
+$ENDCMP
+#
+$CMP J111
+D 20mA Id, 35V Vgs, N-Channel Switch, TO-92
+K Transistor NJFET N-JFET
+F https://docs-emea.rs-online.com/webdocs/12cf/0900766b812cfdfa.pdf
+$ENDCMP
+#
+$CMP J112
+D 5mA Id, 35V Vgs, N-Channel Switch, TO-92
+K Transistor NJFET N-JFET
+F https://docs-emea.rs-online.com/webdocs/12cf/0900766b812cfdfa.pdf
+$ENDCMP
+#
+$CMP J113
+D 2mA Id, 35V Vgs, N-Channel Switch, TO-92
+K Transistor NJFET N-JFET
+F https://docs-emea.rs-online.com/webdocs/12cf/0900766b812cfdfa.pdf
+$ENDCMP
+#
+$CMP Jumper_2_Open
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP KK-254-2_Vertical
+D Molex KK254, single row, 01x02, vertical
+K connector
+F http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-9113.PDF
+$ENDCMP
+#
+$CMP KK-254-3_Vertical
+D Molex KK254, single row, 01x03, vertical
+K connector
+F http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-9113.PDF
+$ENDCMP
+#
+$CMP LED_0805
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LNK302PN
+D LinkSwitch-TN Family, 80mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK304PN
+D LinkSwitch-TN Family, 170mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK305PN
+D LinkSwitch-TN Family, 280mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK306PN
+D LinkSwitch-TN Family, 360mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK3202P
+D LinkSwitch-TN2 Family, 80mA Output Current, DIP-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3204P
+D LinkSwitch-TN2 Family, 170mA Output Current, DIP-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3205P
+D LinkSwitch-TN Family, 270mA Output Current, DIP-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3206P
+D LinkSwitch-TN2 Family, 360mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP MCP39F501
+D Power Monitor, Calculation and Energy Accumulation, UART, 16-bit, QFN-28
+K uart power monitor
+F https://docs.rs-online.com/9575/0900766b813032e4.pdf
+$ENDCMP
+#
+$CMP MOV-10DxxxK
+D Metal Oxide Varistor
+K MOV
+F https://www.bourns.com/docs/Product-Datasheets/MOV10D.pdf
+$ENDCMP
+#
+$CMP MOV-20DxxxK
+D Metal Oxide Varistor
+K MOV
+F https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf
+$ENDCMP
+#
+$CMP NE555P
+D Precision Timers, 555 compatible,  PDIP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP P2N2222
+D 600mA Ic, 40V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/P2N2222A-D.PDF
+$ENDCMP
+#
+$CMP PC817
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4
+K NPN DC Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PN2222A
+D 600mA Ic, 40V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/PN2222-D.PDF
+$ENDCMP
+#
+$CMP RF
+D Flameproof Fuse Resistor
+K R res resistor fuse flameproof
+$ENDCMP
+#
+$CMP RFP
+D Flameproof Resistor
+K R res resistor fuse flameproof
+F ~
+$ENDCMP
+#
+$CMP SG-310
+D CMOS Crystal Oscillator SPXO, SMD package 3.2x2.5mm²
+K CMOS Crystal Oscillator SPXO
+F https://docs.rs-online.com/33b2/0900766b8162bfba.pdf
+$ENDCMP
+#
+$CMP SMBJxxA
+D 600W unidirectional Transient Voltage Suppression Diode, DO214AA (SMB J-Bend)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMBJxxCA
+D 600W bidirectional Transient Voltage Suppression Diode, DO214AA (SMB J-Bend)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMDJxxA
+K diode TVS voltage suppressor
+$ENDCMP
+#
+$CMP TP4056
+D Standalone Linear Li-lon Battery Charger with Thermal Regulation, 4-8V input, single cell, SOP-8
+K lithium li-ion battery charger
+F http://www.tp4056.com/d/tp4056.pdf
+$ENDCMP
+#
+$CMP UF4001
+D 50V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
+K diode
+F https://www.vishay.com/docs/88755/uf4001.pdf
+$ENDCMP
+#
+$CMP UF4002
+D 100V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
+K diode
+F https://www.vishay.com/docs/88755/uf4001.pdf
+$ENDCMP
+#
+$CMP UF4003
+D 200V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
+K diode
+F https://www.vishay.com/docs/88755/uf4001.pdf
+$ENDCMP
+#
+$CMP UF4004
+D 400V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
+K diode
+F https://www.vishay.com/docs/88755/uf4001.pdf
+$ENDCMP
+#
+$CMP UF4005
+D 600V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
+K diode
+F https://www.vishay.com/docs/88755/uf4001.pdf
+$ENDCMP
+#
+$CMP UF4006
+D 800V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
+K diode
+F https://www.vishay.com/docs/88755/uf4001.pdf
+$ENDCMP
+#
+$CMP UF4007
+D 1000V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
+K diode
+F https://www.vishay.com/docs/88755/uf4001.pdf
+$ENDCMP
+#
+$CMP Z0103MN
+D 4Q Triac, 1A RMS, 600V VDRM, 3mA Igt, 7mA Ih, SOT-223
+K 4Q Triac
+F http://www.st.com/resource/en/datasheet/z01.pdf
+$ENDCMP
+#
+$CMP Z0103NN
+D 4Q Triac, 1A RMS, 800V VDRM, 3mA Igt, 7mA Ih, SOT-223
+K 4Q Triac
+F http://www.st.com/resource/en/datasheet/z01.pdf
+$ENDCMP
+#
+$CMP Z0107MN
+D 4Q Triac, 1A RMS, 600V VDRM, 5mA Igt, 10mA Ih, SOT-223
+K 4Q Triac
+F http://www.st.com/resource/en/datasheet/z01.pdf
+$ENDCMP
+#
+$CMP Z0107NN
+D 4Q Triac, 1A RMS, 800V VDRM, 5mA Igt, 10mA Ih, SOT-223
+K 4Q Triac
+F http://www.st.com/resource/en/datasheet/z01.pdf
+$ENDCMP
+#
+$CMP Z0109MN
+D 4Q Triac, 1A RMS, 600V VDRM, 10mA Igt, 10mA Ih, SOT-223
+K 4Q Triac
+F http://www.st.com/resource/en/datasheet/z01.pdf
+$ENDCMP
+#
+$CMP Z0109NN
+D 4Q Triac, 1A RMS, 800V VDRM, 10mA Igt, 10mA Ih, SOT-223
+K 4Q Triac
+F http://www.st.com/resource/en/datasheet/z01.pdf
+$ENDCMP
+#
+$CMP Z0110MN
+D 4Q Triac, 1A RMS, 600V VDRM, 25mA Igt, 25mA Ih, SOT-223
+K 4Q Triac
+F http://www.st.com/resource/en/datasheet/z01.pdf
+$ENDCMP
+#
+$CMP Z0110NN
+D 4Q Triac, 1A RMS, 800V VDRM, 25mA Igt, 25mA Ih, SOT-223
+K 4Q Triac
+F http://www.st.com/resource/en/datasheet/z01.pdf
+$ENDCMP
+#
+$CMP ZXCT1008
+D Low Power High-Side Current Monitors, SOT-23
+K High side current monitor shunt
+F https://www.diodes.com/assets/Datasheets/ZXCT1008.pdf
+$ENDCMP
+#
+#End Doc Library
