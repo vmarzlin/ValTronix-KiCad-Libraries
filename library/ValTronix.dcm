@@ -708,6 +708,24 @@ K CMOS Crystal Oscillator SPXO
 F https://docs.rs-online.com/33b2/0900766b8162bfba.pdf
 $ENDCMP
 #
+$CMP SIP-1A05
+D Pan Chang SIL reed relay, 5V, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://datasheet.lcsc.com/szlcsc/SIP-1A05_C10496.pdf
+$ENDCMP
+#
+$CMP SIP-1A12
+D Pan Chang SIL reed relay, 12V, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://datasheet.lcsc.com/szlcsc/SIP-1A05_C10496.pdf
+$ENDCMP
+#
+$CMP SIP-1A24
+D Pan Chang SIL reed relay, 24V, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://datasheet.lcsc.com/szlcsc/SIP-1A05_C10496.pdf
+$ENDCMP
+#
 $CMP SMBJxxA
 D 600W unidirectional Transient Voltage Suppression Diode, DO214AA (SMB J-Bend)
 K diode TVS voltage suppressor
