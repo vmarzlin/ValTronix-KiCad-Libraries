@@ -702,6 +702,16 @@ K R res resistor fuse flameproof
 F ~
 $ENDCMP
 #
+$CMP S9012
+D -0.5A Ic, -25V Vce, PNP Small Signal Transistor, TO-92
+K PNP Transistor
+$ENDCMP
+#
+$CMP S9015
+D -0.1A Ic, -45V Vce, PNP Small Signal Transistor, TO-92
+K PNP Transistor
+$ENDCMP
+#
 $CMP SG-310
 D CMOS Crystal Oscillator SPXO, SMD package 3.2x2.5mm²
 K CMOS Crystal Oscillator SPXO
