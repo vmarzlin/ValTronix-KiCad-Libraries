@@ -752,13 +752,13 @@ F https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf
 $ENDCMP
 #
 $CMP Module-HW-668
-D 2A non-isolated switching regulator power module, 1.8-28V input voltage, 2-28V output voltage
+D 2A non-isolated DC/DC boost converters power module,, 1.8-28V input voltage, 2-28V output voltage
 K DC-DC boost converter step-up
 F https://french.alibaba.com/product-detail/hw-668-factory-price-2a-dc-dc-step-up-booster-adjustable-power-supply-module-62235180782.html
 $ENDCMP
 #
 $CMP Module-LM2596
-D 2A non-isolated switching regulator power module, 4.5-35V input voltage, 1.5-35V output voltage
+D 2A non-isolated DC/DC buck converters power module, 4.5-35V input voltage, 1.5-35V output voltage
 K DC-DC buck converter step-down
 F https://www.banggood.com/fr/5Pcs-LM2596-DC-DC-Adjustable-Step-Down-Power-Supply-Module-p-963306.html?rmmds=search&cur_warehouse=CN
 $ENDCMP
