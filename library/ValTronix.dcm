@@ -1,5 +1,47 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10A05
+D 50V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A1
+D 100V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A10
+D 1000V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A2
+D 200V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A4
+D 400V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A6
+D 600V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A8
+D 800V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
 $CMP 1N4001
 D 50V 1A General Purpose Rectifier Diode, DO-41
 K diode
@@ -76,6 +118,48 @@ $CMP 2N5551
 D 600mA Ic, 160V Vce, NPN Transistor, TO-92
 K NPN Transistor
 F https://www.onsemi.com/pub/Collateral/2N5551-D.PDF
+$ENDCMP
+#
+$CMP 6A05
+D 50V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A1
+D 100V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A10
+D 1000V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A2
+D 200V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A4
+D 400V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A6
+D 600V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A8
+D 800V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
 $ENDCMP
 #
 $CMP 7400
@@ -665,6 +749,18 @@ $CMP MOV-20DxxxK
 D Metal Oxide Varistor
 K MOV
 F https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf
+$ENDCMP
+#
+$CMP Module-HW-668
+D 2A non-isolated switching regulator power module, 1.8-28V input voltage, 2-28V output voltage
+K DC-DC boost converter step-up
+F https://french.alibaba.com/product-detail/hw-668-factory-price-2a-dc-dc-step-up-booster-adjustable-power-supply-module-62235180782.html
+$ENDCMP
+#
+$CMP Module-LM2596
+D 2A non-isolated switching regulator power module, 4.5-35V input voltage, 1.5-35V output voltage
+K DC-DC buck converter step-down
+F https://www.banggood.com/fr/5Pcs-LM2596-DC-DC-Adjustable-Step-Down-Power-Supply-Module-p-963306.html?rmmds=search&cur_warehouse=CN
 $ENDCMP
 #
 $CMP NE555P
