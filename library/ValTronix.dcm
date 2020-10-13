@@ -1,5 +1,47 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10A05
+D 50V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A1
+D 100V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A10
+D 1000V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A2
+D 200V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A4
+D 400V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A6
+D 600V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
+$CMP 10A8
+D 800V 10A General Purpose Rectifier Diode, R-6
+K diode
+F https://www.rectron.com/data_sheets/10a05-10a10.pdf
+$ENDCMP
+#
 $CMP 1N4001
 D 50V 1A General Purpose Rectifier Diode, DO-41
 K diode
@@ -78,6 +120,48 @@ K NPN Transistor
 F https://www.onsemi.com/pub/Collateral/2N5551-D.PDF
 $ENDCMP
 #
+$CMP 6A05
+D 50V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A1
+D 100V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A10
+D 1000V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A2
+D 200V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A4
+D 400V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A6
+D 600V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
+$CMP 6A8
+D 800V 6A General Purpose Rectifier Diode, R-6
+K diode
+F https://datasheet.octopart.com/6A05-T-Diodes-Inc.-datasheet-5315101.pdf
+$ENDCMP
+#
 $CMP 7400
 D quad 2-input NAND gate
 K TTL nand 2-input
@@ -138,6 +222,12 @@ $CMP 74LVC1G14
 D Single Schmitt NOT Gate, Low-Voltage CMOS
 K Single Gate NOT Schmitt LVC CMOS
 F https://www.diodes.com/assets/Datasheets/74LVC1G14.pdf
+$ENDCMP
+#
+$CMP 8205A
+D 5A Id, 20V Vds, Dual N-Channel Enhancement Mode MOSFET, 25mOhm Ron, Qg (typ) 7nC, TSSOP-8
+K N-Channel MOSFET
+F https://www.maritex.com.pl/product/attachment/91261/8205A.pdf
 $ENDCMP
 #
 $CMP ACS712xLCTR-20A
@@ -290,6 +380,12 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
 $ENDCMP
 #
+$CMP ADuM1251
+D Dual channel bidirectional I2C 2.5kV Isolator 1Mbps, SOIC-8
+K 2Ch 1In 1BiDir Dual Digital Isolator 1Mbps I2C
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf
+$ENDCMP
+#
 $CMP AMS1117-1.2
 D 1A Low Dropout regulator, positive, adjustable output, SOT-223
 K linear regulator ldo adjustable positive obsolete
@@ -426,6 +522,18 @@ $CMP BZV55Cxxx
 D 500mW Zener Diode, 2.4-75V, 5%, MiniMELF
 K zener diode
 F https://www.mouser.fr/datasheet/2/395/BZV55C2V4_SERIES_G1804-1519273.pdf
+$ENDCMP
+#
+$CMP BZX79-Bxx
+D 500mW Zener Diode, 2.4-75V, 2%, DO-35 (SOD27)
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX79.pdf
+$ENDCMP
+#
+$CMP BZX79-Cxx
+D 500mW Zener Diode, 2.4-75V, 5%, DO-35 (SOD27)
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX79.pdf
 $ENDCMP
 #
 $CMP CD74HC4094
@@ -667,6 +775,18 @@ K MOV
 F https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf
 $ENDCMP
 #
+$CMP Module-HW-668
+D 2A non-isolated DC/DC boost converters power module,, 1.8-28V input voltage, 2-28V output voltage
+K DC-DC boost converter step-up
+F https://french.alibaba.com/product-detail/hw-668-factory-price-2a-dc-dc-step-up-booster-adjustable-power-supply-module-62235180782.html
+$ENDCMP
+#
+$CMP Module-LM2596
+D 2A non-isolated DC/DC buck converters power module, 4.5-35V input voltage, 1.5-35V output voltage
+K DC-DC buck converter step-down
+F https://www.banggood.com/fr/5Pcs-LM2596-DC-DC-Adjustable-Step-Down-Power-Supply-Module-p-963306.html?rmmds=search&cur_warehouse=CN
+$ENDCMP
+#
 $CMP NE555P
 D Precision Timers, 555 compatible,  PDIP-8
 K single timer 555
@@ -677,6 +797,12 @@ $CMP P2N2222
 D 600mA Ic, 40V Vce, NPN Transistor, TO-92
 K NPN Transistor
 F https://www.onsemi.com/pub/Collateral/P2N2222A-D.PDF
+$ENDCMP
+#
+$CMP P6KExxA
+D 600W unidirectional Transient Voltage Suppression Diode, DO-204AC (DO-15)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_p6ke_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP PC817
@@ -737,19 +863,21 @@ F https://datasheet.lcsc.com/szlcsc/SIP-1A05_C10496.pdf
 $ENDCMP
 #
 $CMP SMBJxxA
-D 600W unidirectional Transient Voltage Suppression Diode, DO214AA (SMB J-Bend)
+D 600W unidirectional Transient Voltage Suppression Diode, DO-214AA (SMB J-Bend)
 K diode TVS voltage suppressor
 F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP SMBJxxCA
-D 600W bidirectional Transient Voltage Suppression Diode, DO214AA (SMB J-Bend)
+D 600W bidirectional Transient Voltage Suppression Diode, DO-214AA (SMB J-Bend)
 K diode TVS voltage suppressor
 F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP SMDJxxA
+D 5000W unidirectional Transient Voltage Suppression Diode, DO-214AB (SMC J-Bend)
 K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP TP4056
