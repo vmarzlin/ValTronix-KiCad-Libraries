@@ -224,6 +224,12 @@ K Single Gate NOT Schmitt LVC CMOS
 F https://www.diodes.com/assets/Datasheets/74LVC1G14.pdf
 $ENDCMP
 #
+$CMP 8205A
+D 5A Id, 20V Vds, Dual N-Channel Enhancement Mode MOSFET, 25mOhm Ron, Qg (typ) 7nC, TSSOP-8
+K N-Channel MOSFET
+F https://www.maritex.com.pl/product/attachment/91261/8205A.pdf
+$ENDCMP
+#
 $CMP ACS712xLCTR-20A
 D ±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8
 K hall effect current monitor sensor isolated
@@ -374,6 +380,12 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
 $ENDCMP
 #
+$CMP ADuM1251
+D Dual channel bidirectional I2C 2.5kV Isolator 1Mbps, SOIC-8
+K 2Ch 1In 1BiDir Dual Digital Isolator 1Mbps I2C
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf
+$ENDCMP
+#
 $CMP AMS1117-1.2
 D 1A Low Dropout regulator, positive, adjustable output, SOT-223
 K linear regulator ldo adjustable positive obsolete
@@ -510,6 +522,18 @@ $CMP BZV55Cxxx
 D 500mW Zener Diode, 2.4-75V, 5%, MiniMELF
 K zener diode
 F https://www.mouser.fr/datasheet/2/395/BZV55C2V4_SERIES_G1804-1519273.pdf
+$ENDCMP
+#
+$CMP BZX79-Bxx
+D 500mW Zener Diode, 2.4-75V, 2%, DO-35 (SOD27)
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX79.pdf
+$ENDCMP
+#
+$CMP BZX79-Cxx
+D 500mW Zener Diode, 2.4-75V, 5%, DO-35 (SOD27)
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX79.pdf
 $ENDCMP
 #
 $CMP CD74HC4094
@@ -833,19 +857,21 @@ F https://datasheet.lcsc.com/szlcsc/SIP-1A05_C10496.pdf
 $ENDCMP
 #
 $CMP SMBJxxA
-D 600W unidirectional Transient Voltage Suppression Diode, DO214AA (SMB J-Bend)
+D 600W unidirectional Transient Voltage Suppression Diode, DO-214AA (SMB J-Bend)
 K diode TVS voltage suppressor
 F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP SMBJxxCA
-D 600W bidirectional Transient Voltage Suppression Diode, DO214AA (SMB J-Bend)
+D 600W bidirectional Transient Voltage Suppression Diode, DO-214AA (SMB J-Bend)
 K diode TVS voltage suppressor
 F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP SMDJxxA
+D 5000W unidirectional Transient Voltage Suppression Diode, DO-214AB (SMC J-Bend)
 K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP TP4056
