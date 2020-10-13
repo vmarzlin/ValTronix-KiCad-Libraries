@@ -799,6 +799,12 @@ K NPN Transistor
 F https://www.onsemi.com/pub/Collateral/P2N2222A-D.PDF
 $ENDCMP
 #
+$CMP P6KExxA
+D 600W unidirectional Transient Voltage Suppression Diode, DO-204AC (DO-15)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_p6ke_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP PC817
 D DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4
 K NPN DC Optocoupler
