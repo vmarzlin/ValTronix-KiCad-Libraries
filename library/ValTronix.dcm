@@ -880,6 +880,60 @@ K diode TVS voltage suppressor
 F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP TBA_1-0521HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-0522HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±41mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-0523HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-1221HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-1222HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±41mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-1223HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-2421HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-2422HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±41mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-2423HI
+D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
 $CMP TP4056
 D Standalone Linear Li-lon Battery Charger with Thermal Regulation, 4-8V input, single cell, SOP-8
 K lithium li-ion battery charger
