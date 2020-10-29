@@ -763,6 +763,48 @@ K uart power monitor
 F https://docs.rs-online.com/9575/0900766b813032e4.pdf
 $ENDCMP
 #
+$CMP MF-PSMF010X
+D Bourns 100mA PTC Resettable Fuse, 15V, 1Ohm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf?sfvrsn=9c05cafe_26
+$ENDCMP
+#
+$CMP MF-PSMF010_24X
+D Bourns 100mA PTC Resettable Fuse, 24V, 1Ohm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf?sfvrsn=9c05cafe_26
+$ENDCMP
+#
+$CMP MF-PSMF020X
+D Bourns 200mA PTC Resettable Fuse, 9V, 650mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf?sfvrsn=9c05cafe_26
+$ENDCMP
+#
+$CMP MF-PSMF035X
+D Bourns 350mA PTC Resettable Fuse, 6V, 250mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf?sfvrsn=9c05cafe_26
+$ENDCMP
+#
+$CMP MF-PSMF050X
+D Bourns 500mA PTC Resettable Fuse, 6V, 150mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf?sfvrsn=9c05cafe_26
+$ENDCMP
+#
+$CMP MF-PSMF075X
+D Bourns 750mA PTC Resettable Fuse, 6V, 90mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf?sfvrsn=9c05cafe_26
+$ENDCMP
+#
+$CMP MF-PSMF110X
+D Bourns 1.1A PTC Resettable Fuse, 6V, 60mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf?sfvrsn=9c05cafe_26
+$ENDCMP
+#
 $CMP MOV-10DxxxK
 D Metal Oxide Varistor
 K MOV
