@@ -667,6 +667,12 @@ D Connector ICSP AVR-6
 K ICSP AVR
 $ENDCMP
 #
+$CMP IL300
+D Isolated Linear Photocoupler, High Gain, Wideband, DIP8/SMD-DIP8
+K Isolated Linear Photocoupler
+F http://www.vishay.com/docs/83622/il300.pdf
+$ENDCMP
+#
 $CMP J111
 D 20mA Id, 35V Vgs, N-Channel Switch, TO-92
 K Transistor NJFET N-JFET
