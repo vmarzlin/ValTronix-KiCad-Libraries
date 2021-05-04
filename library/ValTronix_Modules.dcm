@@ -4,4 +4,8 @@ $CMP VTM0001
 D Energy Monitor
 $ENDCMP
 #
+$CMP VTM0001_split
+D Energy Monitor
+$ENDCMP
+#
 #End Doc Library
