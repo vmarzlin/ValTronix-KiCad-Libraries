@@ -656,6 +656,12 @@ K thyristor, SCR
 F https://www.fagorelectronica.com/images/download/semiconductor/fs16st.pdf
 $ENDCMP
 #
+$CMP Faston250_Male
+D Faston 250 male cable-to-board connector
+K connector
+F ~
+$ENDCMP
+#
 $CMP H11L1SM
 D Schmitt Trigger Output Optocoupler, High Speed, Open-Collector, SO-6, 1.6mA turn on threshold
 K High Speed Schmitt Optocoupler
