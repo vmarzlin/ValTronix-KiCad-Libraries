@@ -1,4 +1,4 @@
-(module Fuse_Bourns_MF-MSMF_1812 (layer F.Cu) (tedit 5F946E4D)
+(module Fuse_Bourns_MF-MSMF_1812 (layer F.Cu) (tedit 6000C5F6)
   (descr "100mA-2.6A PTC 1812")
   (tags " PTC resettable polyswitch ")
   (fp_text reference REF** (at 0 2.5) (layer F.SilkS)
@@ -17,9 +17,12 @@
   (fp_line (start -3 1.7) (end -3 -1.7) (layer F.CrtYd) (width 0.12))
   (fp_line (start -1 -1.6) (end 1 -1.6) (layer F.SilkS) (width 0.12))
   (fp_line (start 1 1.6) (end -1 1.6) (layer F.SilkS) (width 0.12))
+  (fp_text user REF** (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (pad 1 smd rect (at -2.1 0) (size 1.5 3.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.1 0) (size 1.5 3.2) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_USER_DIR}/packages3d/MF-MSMF_type1.stp
+  (model ${VALTRONIX_MOD}/../packages3d/Fuse_PTC_Bourns.3dshapes/MF-MSMF_type1.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
