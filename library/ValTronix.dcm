@@ -200,6 +200,12 @@ K CMOS And4
 F https://assets.nexperia.com/documents/data-sheet/74HC21.pdf
 $ENDCMP
 #
+$CMP 74HC238
+D 3-to-8 line decoder/multiplexer, DIP-16/SOIC-16/SSOP-16
+K demux
+F http://www.ti.com/lit/ds/symlink/cd74hc238.pdf
+$ENDCMP
+#
 $CMP 74HCT00
 D quad 2-input NAND gate
 K HCTMOS nand 2-input
@@ -608,6 +614,12 @@ K NPN DC Optocoupler
 F http://www.everlight.com/file/ProductFile/EL817.pdf
 $ENDCMP
 #
+$CMP FDC6333C
+D 2.5A/-2.0A Id, 30V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, SuperSOT-6
+K complementary mosfet
+F https://www.onsemi.com/pub/Collateral/FDC6333C-D.PDF
+$ENDCMP
+#
 $CMP FS01xxDA
 D 0.8A Ion, 400V Voff, 5-200µA Igt, Silicon Controlled Rectifier (Thyristor), TO-92
 K SCR thyristor
@@ -616,6 +628,24 @@ $ENDCMP
 #
 $CMP FS01xxMA
 D 0.8A Ion, 600V Voff, 5-200µA Igt, Silicon Controlled Rectifier (Thyristor), TO-92
+K SCR thyristor
+F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
+$ENDCMP
+#
+$CMP FS08xxDx
+D 8A Ion, 400V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
+K SCR thyristor
+F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
+$ENDCMP
+#
+$CMP FS08xxMx
+D 8A Ion, 600V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
+K SCR thyristor
+F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
+$ENDCMP
+#
+$CMP FS08xxNx
+D 8A Ion, 800V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
 K SCR thyristor
 F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
 $ENDCMP
@@ -721,6 +751,24 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_3mm
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_5mm
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_5mm_RGB
+D RGB LED, red/anode/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LNK302PN
 D LinkSwitch-TN Family, 80mA Output Current, DIP-8B
 K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
@@ -775,6 +823,12 @@ K uart power monitor
 F https://docs.rs-online.com/9575/0900766b813032e4.pdf
 $ENDCMP
 #
+$CMP MF-MSMF030
+D Bourns 600mA PTC Resettable Fuse, 30V, 300mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/cfc2/0900766b80871ebd.pdf
+$ENDCMP
+#
 $CMP MF-PSMF010X
 D Bourns 100mA PTC Resettable Fuse, 15V, 1Ohm
 K resettable fuse PTC CPTC polyfuse polyswitch
@@ -815,6 +869,54 @@ $CMP MF-PSMF110X
 D Bourns 1.1A PTC Resettable Fuse, 6V, 60mOhm
 K resettable fuse PTC CPTC polyfuse polyswitch
 F https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf?sfvrsn=9c05cafe_26
+$ENDCMP
+#
+$CMP MF-RM005_240
+D Bourns 120mA PTC Resettable Fuse, 240V, 18.5Ohm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
+$ENDCMP
+#
+$CMP MF-RM008_240
+D Bourns 190mA PTC Resettable Fuse, 240V, 7.4Ohm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
+$ENDCMP
+#
+$CMP MF-RM012_240
+D Bourns 300mA PTC Resettable Fuse, 240V, 3Ohm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
+$ENDCMP
+#
+$CMP MF-RM016_240
+D Bourns 370mA PTC Resettable Fuse, 240V, 2.5Ohm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
+$ENDCMP
+#
+$CMP MF-RM025_240
+D Bourns 560mA PTC Resettable Fuse, 240V, 1.3Ohm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
+$ENDCMP
+#
+$CMP MF-RM033_240
+D Bourns 740mA PTC Resettable Fuse, 240V, 770mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
+$ENDCMP
+#
+$CMP MF-RM040_240
+D Bourns 900mA PTC Resettable Fuse, 240V, 600mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
+$ENDCMP
+#
+$CMP MF-RM055_240
+D Bourns 1.25A PTC Resettable Fuse, 240V, 450mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
 $ENDCMP
 #
 $CMP MOV-10DxxxK
@@ -865,6 +967,12 @@ K NPN DC Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
+$CMP PC827
+D Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8
+K NPN DC Dual Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
+$ENDCMP
+#
 $CMP PN2222A
 D 600mA Ic, 40V Vce, NPN Transistor, TO-92
 K NPN Transistor
@@ -874,6 +982,12 @@ $ENDCMP
 $CMP RF
 D Flameproof Fuse Resistor
 K R res resistor fuse flameproof
+$ENDCMP
+#
+$CMP RFM-0505S
+D 1W, 1000 VDC isolated DC/DC converter, 5V0 input, 5V0 output, SIP4
+K Recom DC/DC isolated converter
+F https://recom-power.com/pdf/Econoline/RFM.pdf
 $ENDCMP
 #
 $CMP RFP
