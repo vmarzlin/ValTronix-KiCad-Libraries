@@ -1,4 +1,4 @@
-(module Faston250 (layer F.Cu) (tedit 609102F9)
+(module Faston250 (layer F.Cu) (tedit 6091A3A6)
   (descr "Faston 250 connector")
   (fp_text reference REF** (at 2.5 2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
