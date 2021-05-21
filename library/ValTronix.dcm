@@ -698,6 +698,60 @@ K High Speed Schmitt Optocoupler
 F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
 $ENDCMP
 #
+$CMP HF140FF_003-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 3V DC coil
+K DPST NO monostable
+F https://source.hongfa.com//pdf/web/viewer.html?file=/Uploads/Product/PDF/HF140FF_en.pdf
+$ENDCMP
+#
+$CMP HF140FF_005-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 5V DC coil
+K DPST NO monostable
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2%7F1014%7Fpdf%7FEnglish%7FENG_DS_RT2_1014.pdf%7F6-1393243-3
+$ENDCMP
+#
+$CMP HF140FF_006-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 6V DC coil
+K DPST NO monostable
+F https://source.hongfa.com//pdf/web/viewer.html?file=/Uploads/Product/PDF/HF140FF_en.pdf
+$ENDCMP
+#
+$CMP HF140FF_009-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 9V DC coil
+K DPST NO monostable
+F https://source.hongfa.com//pdf/web/viewer.html?file=/Uploads/Product/PDF/HF140FF_en.pdf
+$ENDCMP
+#
+$CMP HF140FF_012-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 12V DC coil
+K DPST NO monostable
+F https://source.hongfa.com//pdf/web/viewer.html?file=/Uploads/Product/PDF/HF140FF_en.pdf
+$ENDCMP
+#
+$CMP HF140FF_018-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 18V DC coil
+K DPST NO monostable
+F https://source.hongfa.com//pdf/web/viewer.html?file=/Uploads/Product/PDF/HF140FF_en.pdf
+$ENDCMP
+#
+$CMP HF140FF_024-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 24V DC coil
+K DPST NO monostable
+F https://source.hongfa.com//pdf/web/viewer.html?file=/Uploads/Product/PDF/HF140FF_en.pdf
+$ENDCMP
+#
+$CMP HF140FF_048-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 48V DC coil
+K DPST NO monostable
+F https://source.hongfa.com//pdf/web/viewer.html?file=/Uploads/Product/PDF/HF140FF_en.pdf
+$ENDCMP
+#
+$CMP HF140FF_060-2H
+D Hongfa HF140FF relay, monostable dual pole normally open, 60V DC coil
+K DPST NO monostable
+F https://source.hongfa.com//pdf/web/viewer.html?file=/Uploads/Product/PDF/HF140FF_en.pdf
+$ENDCMP
+#
 $CMP ICSP
 D Connector ICSP AVR-6
 K ICSP AVR
