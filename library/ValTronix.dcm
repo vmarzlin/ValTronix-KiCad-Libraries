@@ -422,25 +422,25 @@ K linear regulator ldo adjustable positive obsolete
 F http://www.diodes.com/datasheets/AP1117.pdf
 $ENDCMP
 #
-$CMP B2B-XH-2
+$CMP B2B-XH-A
 D JST XH, single row, 01x02, vertical
 K connector
 F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
 $ENDCMP
 #
-$CMP B2B-XH-3
+$CMP B3B-XH-A
 D JST XH, single row, 01x03, vertical
 K connector
 F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
 $ENDCMP
 #
-$CMP B2B-XH-4
+$CMP B4B-XH-A
 D JST XH, single row, 01x04, vertical
 K connector
 F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
 $ENDCMP
 #
-$CMP B2B-XH-5
+$CMP B5B-XH-A
 D JST XH, single row, 01x05, vertical
 K connector
 F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
@@ -632,19 +632,37 @@ K SCR thyristor
 F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
 $ENDCMP
 #
-$CMP FS08xxDx
+$CMP FS08xxDD
+D 8A Ion, 400V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-252 (DPAK)
+K SCR thyristor
+F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
+$ENDCMP
+#
+$CMP FS08xxDH
 D 8A Ion, 400V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
 K SCR thyristor
 F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
 $ENDCMP
 #
-$CMP FS08xxMx
+$CMP FS08xxMD
+D 8A Ion, 600V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-252 (DPAK)
+K SCR thyristor
+F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
+$ENDCMP
+#
+$CMP FS08xxMH
 D 8A Ion, 600V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
 K SCR thyristor
 F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
 $ENDCMP
 #
-$CMP FS08xxNx
+$CMP FS08xxND
+D 8A Ion, 800V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-252 (DPAK)
+K SCR thyristor
+F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
+$ENDCMP
+#
+$CMP FS08xxNH
 D 8A Ion, 800V Voff, 0.2-15mA Igt, Silicon Controlled Rectifier (Thyristor), TO-220
 K SCR thyristor
 F https://docs-emea.rs-online.com/webdocs/150e/0900766b8150e21a.pdf
@@ -763,6 +781,12 @@ K Isolated Linear Photocoupler
 F http://www.vishay.com/docs/83622/il300.pdf
 $ENDCMP
 #
+$CMP IRFZ44
+D 50A Ids, 60V Vds, N-Channel MOSFET, TO-220
+K transistor NMOS N-MOS N-MOSFET
+F http://www.irf.com/product-info/datasheets/data/irfz44.pdf
+$ENDCMP
+#
 $CMP J111
 D 20mA Id, 35V Vgs, N-Channel Switch, TO-92
 K Transistor NJFET N-JFET
@@ -823,6 +847,12 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_rect_3.3x2mm
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
 $CMP LNK302PN
 D LinkSwitch-TN Family, 80mA Output Current, DIP-8B
 K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
@@ -869,6 +899,12 @@ $CMP LNK3206P
 D LinkSwitch-TN2 Family, 360mA Output Current, DIP-8B
 K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
 F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP MCP3021
+D Single Channel 10-bit ADC,  22.3ksps, I2C, low-power, SOT-23-5
+K ADC
+F https://docs.rs-online.com/350c/0900766b80fa3e8d.pdf
 $ENDCMP
 #
 $CMP MCP39F501
@@ -1050,6 +1086,12 @@ K R res resistor fuse flameproof
 F ~
 $ENDCMP
 #
+$CMP S2B-XH-A
+D JST XH, single row, 01x02, right-angle
+K connector
+F https://www.jst.fr/core/file.get?path=doc/jst/family/pdf/exh1.pdf
+$ENDCMP
+#
 $CMP S9012
 D -0.5A Ic, -25V Vce, PNP Small Signal Transistor, TO-92
 K PNP Transistor
@@ -1102,10 +1144,40 @@ K diode TVS voltage suppressor
 F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP TBA_1-0511E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +5V, 200mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-0512E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +12V, 84mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-0513E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +15V, 66mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-0521E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
 $CMP TBA_1-0521HI
 D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 5V Input Voltage, SIP-7
 K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-0522E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±41mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
 $ENDCMP
 #
 $CMP TBA_1-0522HI
@@ -1114,10 +1186,40 @@ K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
 $ENDCMP
 #
+$CMP TBA_1-0523E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 5V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
 $CMP TBA_1-0523HI
 D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 5V Input Voltage, SIP-7
 K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-1211E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +5V, 200mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-1212E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +12V, 84mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-1213E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +15V, 66mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-1221E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
 $ENDCMP
 #
 $CMP TBA_1-1221HI
@@ -1126,10 +1228,22 @@ K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
 $ENDCMP
 #
+$CMP TBA_1-1222E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±41mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
 $CMP TBA_1-1222HI
 D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±41mA, 12V Input Voltage, SIP-7
 K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-1223E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 12V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
 $ENDCMP
 #
 $CMP TBA_1-1223HI
@@ -1138,16 +1252,52 @@ K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
 $ENDCMP
 #
+$CMP TBA_1-2411E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +5V, 200mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-2412E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +12V, 84mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-2413E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +15V, 66mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
+$CMP TBA_1-2421E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
 $CMP TBA_1-2421HI
 D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 24V Input Voltage, SIP-7
 K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
 $ENDCMP
 #
+$CMP TBA_1-2422E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±41mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+$ENDCMP
+#
 $CMP TBA_1-2422HI
 D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±41mA, 24V Input Voltage, SIP-7
 K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TBA_1-2423E
+D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 24V Input Voltage, SIP-7
+K TRACO_POWER DC/DC isolated Converter module
+F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
 $ENDCMP
 #
 $CMP TBA_1-2423HI
