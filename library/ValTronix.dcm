@@ -168,6 +168,12 @@ K TTL nand 2-input
 F http://www.ti.com/lit/gpn/sn7400
 $ENDCMP
 #
+$CMP 74AHC125
+D Quad buffer 3-State outputs
+K TTL buffer 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf
+$ENDCMP
+#
 $CMP 74AHC1G14
 D Single Schmitt NOT Gate,HCMOS
 K Single Gate NOT Schmitt HCMOS
@@ -192,6 +198,12 @@ $CMP 74HC00
 D quad 2-input NAND gate
 K HCMOS nand 2-input
 F http://www.ti.com/lit/gpn/sn74hc00
+$ENDCMP
+#
+$CMP 74HC08
+D Quad And2
+K TTL and2
+F https://www.ti.com/lit/ds/symlink/cd74hc08.pdf?ts=1630403122102&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD74HC08E
 $ENDCMP
 #
 $CMP 74HC21D
@@ -386,6 +398,11 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
 $ENDCMP
 #
+$CMP ADP322ACPZ
+D Triple, 200 mA, Low Noise, High PSRR Voltage Regulator
+F https://docs.rs-online.com/26bd/0900766b812fa3db.pdf
+$ENDCMP
+#
 $CMP ADuM1251
 D Dual channel bidirectional I2C 2.5kV Isolator 1Mbps, SOIC-8
 K 2Ch 1In 1BiDir Dual Digital Isolator 1Mbps I2C
@@ -498,6 +515,11 @@ $CMP BD49xxG
 D Standard CMOS Voltage Detector IC, CMOS Output, SSOP5
 K voltage detector CMOS SSOP5
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-e.pdf
+$ENDCMP
+#
+$CMP BD6230
+D DC Brush Motor Drivers (36V Max)
+F https://docs.rs-online.com/3798/0900766b81385cf4.pdf
 $ENDCMP
 #
 $CMP BT139B-600
@@ -829,6 +851,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_1206
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
 $CMP LED_3mm
 D Light emitting diode
 K LED diode
@@ -899,6 +927,18 @@ $CMP LNK3206P
 D LinkSwitch-TN2 Family, 360mA Output Current, DIP-8B
 K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
 F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP MB4S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 0.5A If, TO-269AA
+K rectifier acdc
+F http://www.vishay.com/docs/88661/mb2s.pdf
+$ENDCMP
+#
+$CMP MB6S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 600V V (420Vrms), 0.5A If, TO-269AA
+K rectifier acdc
+F http://www.vishay.com/docs/88661/mb2s.pdf
 $ENDCMP
 #
 $CMP MCP3021
@@ -1086,6 +1126,24 @@ K R res resistor fuse flameproof
 F ~
 $ENDCMP
 #
+$CMP RMB2S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.5A If, TO-269AA
+K rectifier acdc
+F http://www.vishay.com/docs/88705/rmbs.pdf
+$ENDCMP
+#
+$CMP RMB4S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 0.5A If, TO-269AA
+K rectifier acdc
+F http://www.vishay.com/docs/88705/rmbs.pdf
+$ENDCMP
+#
+$CMP Rotary_Encoder_Switch
+D Rotary encoder, dual channel, incremental quadrate outputs, with switch
+K rotary switch encoder switch push button
+F ~
+$ENDCMP
+#
 $CMP S2B-XH-A
 D JST XH, single row, 01x02, right-angle
 K connector
@@ -1142,6 +1200,12 @@ $CMP SMDJxxA
 D 5000W unidirectional Transient Voltage Suppression Diode, DO-214AB (SMC J-Bend)
 K diode TVS voltage suppressor
 F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SSM6N35FE
+D 180mA Id, 20V Vds, Dual N-Channel MOSFET, 20mOhm Ron @1.2V, SOT-563
+K Dual N-Channel MOSFET
+F https://docs.rs-online.com/cf42/0900766b81623083.pdf
 $ENDCMP
 #
 $CMP TBA_1-0511E
@@ -1304,6 +1368,12 @@ $CMP TBA_1-2423HI
 D Traco Power 1W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 24V Input Voltage, SIP-7
 K TRACO_POWER DC/DC isolated Converter module
 F https://docs.rs-online.com/9182/0900766b816f1831.pdf
+$ENDCMP
+#
+$CMP TFT_2.8_SPI
+D ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V
+K driver display
+F https://www.pjrc.com/store/display_ili9341_touch.html
 $ENDCMP
 #
 $CMP TP4056
