@@ -174,9 +174,21 @@ K TTL buffer 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf
 $ENDCMP
 #
+$CMP 74AHC1G00
+D Single NAND Gate, Low-Voltage CMOS
+K Single Gate NAND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AHC1G14
 D Single Schmitt NOT Gate,HCMOS
 K Single Gate NOT Schmitt HCMOS
+$ENDCMP
+#
+$CMP 74AHCT1G00
+D Single NAND Gate, Low-Voltage CMOS
+K Single Gate NAND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AHCT1G14
@@ -184,9 +196,21 @@ D Single Schmitt NOT Gate, HCMOS TTL
 K Single Gate NOT Schmitt HCMOS TTL
 $ENDCMP
 #
+$CMP 74AUC1G00
+D Single NAND Gate, Low-Voltage CMOS
+K Single Gate NAND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AUC1G14
 D Single Schmitt NOT Gate, Low-Voltage CMOS
 K Single Gate NOT Schmitt LVC CMOS
+$ENDCMP
+#
+$CMP 74AUP1G00
+D Single NAND Gate, Low-Voltage CMOS
+K Single Gate NAND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AUP1G14
@@ -204,6 +228,12 @@ $CMP 74HC08
 D Quad And2
 K TTL and2
 F https://www.ti.com/lit/ds/symlink/cd74hc08.pdf?ts=1630403122102&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD74HC08E
+$ENDCMP
+#
+$CMP 74HC11
+D Triple 3-input AND date
+K CMOS And3
+F https://www.ti.com/lit/ds/symlink/cd74hc11.pdf?ts=1662300890335&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
 $CMP 74HC21D
@@ -234,6 +264,12 @@ $CMP 74LS37
 D quad 2-input NAND buffer
 K TTL nand 2-input buffer
 F http://www.ti.com/lit/gpn/sn74ls37
+$ENDCMP
+#
+$CMP 74LVC1G00
+D Single NAND Gate, Low-Voltage CMOS
+K Single Gate NAND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC1G14
@@ -505,6 +541,12 @@ K Schottky Diode
 F https://www.diodes.com/assets/Datasheets/ds11006.pdf
 $ENDCMP
 #
+$CMP BD45xxG
+D Power supply supervisor, Manual reset, Open Drain Output, SSOP5
+K supervisor reset
+F https://docs.rs-online.com/3afc/0900766b8161bc85.pdf
+$ENDCMP
+#
 $CMP BD48xxG
 D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP5
 K voltage detector open drain SSOP5
@@ -622,6 +664,12 @@ $CMP DB22320
 D 30V 1.5A Schottky diode, SOD-123
 K diode Schottky
 F https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2232000L_E.pdf
+$ENDCMP
+#
+$CMP DMP3160L-7
+D -2.7A Ids, -30V Vds, P-Channel MOSFET, SOT-23
+K transistor PMOS P-MOS P-MOSFET
+F ~
 $ENDCMP
 #
 $CMP DW01A
@@ -941,6 +989,11 @@ K rectifier acdc
 F http://www.vishay.com/docs/88661/mb2s.pdf
 $ENDCMP
 #
+$CMP MC34161DG
+D Universal Voltage Monitors
+F https://www.farnell.com/datasheets/2367023.pdf
+$ENDCMP
+#
 $CMP MCP3021
 D Single Channel 10-bit ADC,  22.3ksps, I2C, low-power, SOT-23-5
 K ADC
@@ -953,8 +1006,20 @@ K uart power monitor
 F https://docs.rs-online.com/9575/0900766b813032e4.pdf
 $ENDCMP
 #
+$CMP MCP6231RT-E_OT
+D Rail-to-Rail Input/Output Operational Amplifier, SOT-23-5
+K single opamp
+F https://docs.rs-online.com/e4d2/0900766b8138132c.pdf
+$ENDCMP
+#
+$CMP MF-MSMF010
+D Bourns 100mA PTC Resettable Fuse, 60V, 700mOhm
+K resettable fuse PTC CPTC polyfuse polyswitch
+F https://docs.rs-online.com/cfc2/0900766b80871ebd.pdf
+$ENDCMP
+#
 $CMP MF-MSMF030
-D Bourns 600mA PTC Resettable Fuse, 30V, 300mOhm
+D Bourns 300mA PTC Resettable Fuse, 30V, 300mOhm
 K resettable fuse PTC CPTC polyfuse polyswitch
 F https://docs.rs-online.com/cfc2/0900766b80871ebd.pdf
 $ENDCMP
