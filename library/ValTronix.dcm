@@ -180,9 +180,21 @@ K Single Gate NAND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AHC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AHC1G14
 D Single Schmitt NOT Gate,HCMOS
 K Single Gate NOT Schmitt HCMOS
+$ENDCMP
+#
+$CMP 74AHC1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AHCT1G00
@@ -191,9 +203,21 @@ K Single Gate NAND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AHCT1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AHCT1G14
 D Single Schmitt NOT Gate, HCMOS TTL
 K Single Gate NOT Schmitt HCMOS TTL
+$ENDCMP
+#
+$CMP 74AHCT1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AUC1G00
@@ -202,9 +226,27 @@ K Single Gate NAND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AUC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AUC1G14
 D Single Schmitt NOT Gate, Low-Voltage CMOS
 K Single Gate NOT Schmitt LVC CMOS
+$ENDCMP
+#
+$CMP 74AUC1G17
+D Single Schmitt Buffer Gate, Low-Voltage CMOS
+K Single Gate Buff Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AUP1G00
@@ -213,9 +255,27 @@ K Single Gate NAND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AUP1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AUP1G14
 D Single Schmitt NOT Gate, Low-Voltage CMOS
 K Single Gate NOT Schmitt LVC CMOS
+$ENDCMP
+#
+$CMP 74AUP1G17
+D Single Schmitt Buffer Gate, Low-Voltage CMOS
+K Single Gate Buff Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74HC00
@@ -272,10 +332,40 @@ K Single Gate NAND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74LVC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123
+D Single Retrigerrable Monostabile Multivibrator, Low-Voltage CMOS
+K Single Mono Multivibrator CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74LVC1G14
 D Single Schmitt NOT Gate, Low-Voltage CMOS
 K Single Gate NOT Schmitt LVC CMOS
 F https://www.diodes.com/assets/Datasheets/74LVC1G14.pdf
+$ENDCMP
+#
+$CMP 74LVC1G17
+D Single Schmitt Buffer Gate, Low-Voltage CMOS
+K Single Gate Buff Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC2G14
+D Dual Schmitt NOT Gate, Low-Voltage CMOS
+K Dual Gate NOT Schmitt LVC CMOS
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G14.pdf
 $ENDCMP
 #
 $CMP 8205A
@@ -434,6 +524,12 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en
 $ENDCMP
 #
+$CMP AD8277
+D Low Power, Wide Supply Range, Low Cost Dual Unity-Gain Difference Amplifier, SOIC-8/MSOP-8
+K difference amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
+$ENDCMP
+#
 $CMP ADP322ACPZ
 D Triple, 200 mA, Low Noise, High PSRR Voltage Regulator
 F https://docs.rs-online.com/26bd/0900766b812fa3db.pdf
@@ -547,10 +643,22 @@ K supervisor reset
 F https://docs.rs-online.com/3afc/0900766b8161bc85.pdf
 $ENDCMP
 #
+$CMP BD48KxxG
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(1pin GND)
+K voltage detector open drain SSOP3
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-e.pdf
+$ENDCMP
+#
 $CMP BD48xxG
 D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP5
 K voltage detector open drain SSOP5
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-e.pdf
+$ENDCMP
+#
+$CMP BD49KxxG
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(1pin GND)
+K voltage detector cmos SSOP3
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-e.pdf
 $ENDCMP
 #
 $CMP BD49xxG
@@ -664,6 +772,18 @@ $CMP DB22320
 D 30V 1.5A Schottky diode, SOD-123
 K diode Schottky
 F https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2232000L_E.pdf
+$ENDCMP
+#
+$CMP DG409
+D CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F https://www.vishay.com/docs/70062/dg408.pdf
+$ENDCMP
+#
+$CMP DMC3025LSD
+D 8.5A/-5.5A Id, 30V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, SOIC-8
+K complementary mosfet
+F https://www.diodes.com/assets/Datasheets/DMC3025LSD.pdf
 $ENDCMP
 #
 $CMP DMP3160L-7
@@ -780,6 +900,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP GDT_2pin
+D Gas Discharge Tube with 2 Pins
+K gdt
+F ~
+$ENDCMP
+#
 $CMP H11L1SM
 D Schmitt Trigger Output Optocoupler, High Speed, Open-Collector, SO-6, 1.6mA turn on threshold
 K High Speed Schmitt Optocoupler
@@ -851,6 +977,12 @@ K Isolated Linear Photocoupler
 F http://www.vishay.com/docs/83622/il300.pdf
 $ENDCMP
 #
+$CMP INA154
+D Low Power, Wide Supply Range, High Speed Unity-Gain Difference Amplifier, SO-8
+K difference amplifier
+F https://www.ti.com/lit/ds/symlink/ina154.pdf
+$ENDCMP
+#
 $CMP IRFZ44
 D 50A Ids, 60V Vds, N-Channel MOSFET, TO-220
 K transistor NMOS N-MOS N-MOSFET
@@ -881,6 +1013,12 @@ K Jumper SPST
 F ~
 $ENDCMP
 #
+$CMP KK-254-2_Horizontal
+D Molex KK254, single row, 01x02, vertical
+K connector
+F http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-9113.PDF
+$ENDCMP
+#
 $CMP KK-254-2_Vertical
 D Molex KK254, single row, 01x02, vertical
 K connector
@@ -909,6 +1047,12 @@ $CMP LED_3mm
 D Light emitting diode
 K LED diode
 F ~
+$ENDCMP
+#
+$CMP LED_3mm_x2
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://www.osram-os.com/Graphics/XPic5/00181708_0.pdf
 $ENDCMP
 #
 $CMP LED_5mm
@@ -977,6 +1121,48 @@ K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
 F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
 $ENDCMP
 #
+$CMP LTV-817S
+D DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP LTV-847
+D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
+K NPN DC Quad Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
+$ENDCMP
+#
+$CMP LTV-847S
+D DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP MAX4864L
+D Overvoltage and Reverse Supply Protection Controller, 7.40V, SOT23-6
+K overvoltage reverse-polarity protection
+F https://www.mouser.fr/datasheet/2/609/MAX4864L_MAX4867-3129397.pdf
+$ENDCMP
+#
+$CMP MAX4865L
+D Overvoltage and Reverse Supply Protection Controller, 6.35V, SOT23-6
+K overvoltage reverse-polarity protection
+F https://www.mouser.fr/datasheet/2/609/MAX4864L_MAX4867-3129397.pdf
+$ENDCMP
+#
+$CMP MAX4866L
+D Overvoltage and Reverse Supply Protection Controller, 5.80V, SOT23-6
+K overvoltage reverse-polarity protection
+F https://www.mouser.fr/datasheet/2/609/MAX4864L_MAX4867-3129397.pdf
+$ENDCMP
+#
+$CMP MAX4867L
+D Overvoltage and Reverse Supply Protection Controller, 4.65V, SOT23-6
+K overvoltage reverse-polarity protection
+F https://www.mouser.fr/datasheet/2/609/MAX4864L_MAX4867-3129397.pdf
+$ENDCMP
+#
 $CMP MB4S
 D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 0.5A If, TO-269AA
 K rectifier acdc
@@ -989,9 +1175,14 @@ K rectifier acdc
 F http://www.vishay.com/docs/88661/mb2s.pdf
 $ENDCMP
 #
+$CMP MC33161DG
+D Universal Voltage Monitors
+F https://www.onsemi.com/pdf/datasheet/mc34161-d.pdf
+$ENDCMP
+#
 $CMP MC34161DG
 D Universal Voltage Monitors
-F https://www.farnell.com/datasheets/2367023.pdf
+F https://www.onsemi.com/pdf/datasheet/mc34161-d.pdf
 $ENDCMP
 #
 $CMP MCP3021
@@ -1114,6 +1305,18 @@ K resettable fuse PTC CPTC polyfuse polyswitch
 F https://docs.rs-online.com/ea3d/0900766b811dfead.pdf
 $ENDCMP
 #
+$CMP MIC2544-2YMM
+D Single-channel, high side, programmable current-limit power distribution switch, 2.7V-5.5V, Active Low Output, MSOP-8
+K mosfet distribution eFuse
+F https://www.mouser.fr/datasheet/2/268/20005725B-1760064.pdf
+$ENDCMP
+#
+$CMP MIC2548-2YMM
+D Single-channel, high side, programmable current-limit power distribution switch with latch, 2.7V-5.5V, Active Low Output, MSOP-8
+K mosfet distribution eFuse
+F https://www.mouser.fr/datasheet/2/268/20005725B-1760064.pdf
+$ENDCMP
+#
 $CMP MOV-10DxxxK
 D Metal Oxide Varistor
 K MOV
@@ -1136,6 +1339,11 @@ $CMP Module-LM2596
 D 2A non-isolated DC/DC buck converters power module, 4.5-35V input voltage, 1.5-35V output voltage
 K DC-DC buck converter step-down
 F https://www.banggood.com/fr/5Pcs-LM2596-DC-DC-Adjustable-Step-Down-Power-Supply-Module-p-963306.html?rmmds=search&cur_warehouse=CN
+$ENDCMP
+#
+$CMP NCV33161DG
+D Universal Voltage Monitors
+F https://www.onsemi.com/pdf/datasheet/mc34161-d.pdf
 $ENDCMP
 #
 $CMP NE555P
@@ -1166,6 +1374,17 @@ $CMP PC827
 D Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8
 K NPN DC Dual Optocoupler
 F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
+$ENDCMP
+#
+$CMP PC847
+D DC Quad Optocoupler, Vce 35V, CTR 50-300%, DIP16
+K NPN DC Quad Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PDTD123ET
+D 0.5A Ic, 50V Vce, NPN Bias Resistor Transistors, SOT-23
+K NPN Transistor
 $ENDCMP
 #
 $CMP PN2222A
@@ -1249,6 +1468,18 @@ K Single Pole Reed Relay SPST
 F https://datasheet.lcsc.com/szlcsc/SIP-1A05_C10496.pdf
 $ENDCMP
 #
+$CMP SMAJxxA
+D 400W unidirectional Transient Voltage Suppression Diode, DO-214AC (SMA J-Bend)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMAJxxCA
+D 400W bidirectional Transient Voltage Suppression Diode, DO-214AC (SMA J-Bend)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP SMBJxxA
 D 600W unidirectional Transient Voltage Suppression Diode, DO-214AA (SMB J-Bend)
 K diode TVS voltage suppressor
@@ -1273,6 +1504,30 @@ K Dual N-Channel MOSFET
 F https://docs.rs-online.com/cf42/0900766b81623083.pdf
 $ENDCMP
 #
+$CMP SW_DPDT_8x8
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+F ~
+$ENDCMP
+#
+$CMP SW_Push_DPDT_8x8
+D Momentary Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt (ON)-(ON)
+F ~
+$ENDCMP
+#
+$CMP Si8631AB-B-IS
+D Low-Power Triple-Channel Digital Isolator, 1Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16W
+K 3Ch 2In 1Out Triple Digital Isolator 1Mbps
+F https://www.mouser.fr/datasheet/2/472/si86xx_1Mbps_datasheet-2507658.pdf
+$ENDCMP
+#
+$CMP SolderJumper_3_Bridged12
+D 3-pole Solder Jumper, pins 1+2 closed/bridged
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
 $CMP TBA_1-0511E
 D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Single Output Voltage +5V, 200mA, 5V Input Voltage, SIP-7
 K TRACO_POWER DC/DC isolated Converter module
@@ -1294,7 +1549,7 @@ $ENDCMP
 $CMP TBA_1-0521E
 D Traco Power 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 5V Input Voltage, SIP-7
 K TRACO_POWER DC/DC isolated Converter module
-F https://docs.rs-online.com/6e42/0900766b816f184b.pdf
+F https://docs.rs-online.com/9182/0900766b816f1831.pdf
 $ENDCMP
 #
 $CMP TBA_1-0521HI
@@ -1447,6 +1702,11 @@ K lithium li-ion battery charger
 F http://www.tp4056.com/d/tp4056.pdf
 $ENDCMP
 #
+$CMP TPS37043-Q1
+D Triple window comparator
+F https://www.ti.com/lit/ds/symlink/tps3704-q1.pdf
+$ENDCMP
+#
 $CMP UF4001
 D 50V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
 K diode
@@ -1487,6 +1747,11 @@ $CMP UF4007
 D 1000V 1A Soft Recovery Ultrafast Rectifier Diode, DO-41
 K diode
 F https://www.vishay.com/docs/88755/uf4001.pdf
+$ENDCMP
+#
+$CMP UPDI
+D Connector UPDI AVR-6 (Unified Program and Debug Interface)
+K UPDI AVR
 $ENDCMP
 #
 $CMP Z0103MN

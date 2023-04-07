@@ -1,4 +1,4 @@
-(module PhoenixContact_1017492_1x03_P5.08mm (layer F.Cu) (tedit 5FC044EE)
+(module PhoenixContact_1017492_1x03_P5.08mm (layer F.Cu) (tedit 63D6CE34)
   (tags connector)
   (fp_text reference REF** (at 0 17.78) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -33,7 +33,7 @@
   (pad 1 thru_hole circle (at -5.08 8.7) (size 2.54 2.54) (drill 1.4) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 8.7) (size 2.54 2.54) (drill 1.4) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5.08 8.7) (size 2.54 2.54) (drill 1.4) (layers *.Cu *.Mask))
-  (model C:/Users/Valéry/Documents/GitHub/ValTronix-KiCad-Libraries/packages3d/pxc_1017492_00_TDPT-2-5-3-SC-5-08_3D.stp
+  (model ${VALTRONIX_3D}/Connector_PhoenixContact.3dshapes/pxc_1017492_00_TDPT-2-5-3-SC-5-08_3D.stp
     (offset (xyz -8 -14.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
