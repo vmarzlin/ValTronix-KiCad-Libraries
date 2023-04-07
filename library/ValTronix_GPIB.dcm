@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_GPIB
+D GPIB connectable mounting pin connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)
+K connector gpib
+F ~
+$ENDCMP
+#
+$CMP SN75160BN
+D Octal general-purpose interface bus transceiver, DIP-20
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
+$ENDCMP
+#
+$CMP SN75161BN
+D Octal general-purpose interface bus transceiver, DIP-20
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75161b.pdf
+$ENDCMP
+#
+$CMP SN75162BN
+D Octal general-purpose interface bus transceiver, DIP-22
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75162b.pdf
+$ENDCMP
+#
+$CMP TMS9914
+D IEEE 488.2 Controller Chip, DIP-40
+K gpib
+$ENDCMP
+#
+#End Doc Library
