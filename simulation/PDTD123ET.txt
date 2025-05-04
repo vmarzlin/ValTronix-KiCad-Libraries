@@ -1,0 +1,95 @@
+**********************************************************
+*
+* PDTD123ET
+*
+* Nexperia
+*
+* Resistor equipped NPN transistor (RET)
+* IC   = 500 mA
+* VCEO = 50 V 
+* hFE  = min. 40 @ 5V/50mA
+* R1   = 2.2 Kohm
+* R2   = 2.2 Kohm
+*
+*
+* Package pinning does not match Spice model pinning.
+* Package: SOT 23
+* 
+* Package Pin 1: Base 
+* Package Pin 2: Emitter
+* Package Pin 3: Collector 
+*
+*
+* Extraction date (week/year): 17/2022
+* Spice model includes temperature dependency
+*
+**********************************************************
+*#
+* Please note: Resistances R1 and R2 are not part of the 
+* model and have to be added separately.
+*
+* Diode D1, Transistor Q2 and resistor RQ 
+* are dedicated to improve modeling of quasi
+* saturation area and reverse mode operation
+* and do not reflect physical devices.
+*
+.SUBCKT PDTD123ET 1 2 3
+Q1 1 2 3 MAIN 0.9253
+Q2 11 2 3 MAIN 0.07469
+RQ 1 11 41.13
+D1 2 1 DIODE
+*
+.MODEL MAIN NPN
++ IS = 3.681E-14
++ NF = 0.9355
++ ISE = 1.556E-15
++ NE = 1.236
++ BF = 390
++ IKF = 1.773
++ VAF = 39.73
++ NR = 0.9355
++ ISC = 9.333E-14
++ NC = 2.211
++ BR = 62
++ IKR = 1000
++ VAR = 27.91
++ RB = 15
++ IRB = 0.0008
++ RBM = 3.14
++ RE = 0.082
++ RC = 0.1114
++ XTB = 1.174
++ EG = 1.11
++ XTI = 3.758
++ CJE = 1.077E-10
++ VJE = 0.7015
++ MJE = 0.3508
++ TF = 5.4E-10
++ XTF = 3.7
++ VTF = 1.3
++ ITF = 0.65
++ PTF = 0
++ CJC = 2.211E-11
++ VJC = 0.5555
++ MJC = 0.3983
++ XCJC = 1
++ TR = 7.45E-08
++ CJS = 0
++ VJS = 0.75
++ MJS = 0.333
++ FC = 0.85
+.MODEL DIODE D
++ IS = 1.514E-15
++ N = 0.9634
++ BV = 1000
++ IBV = 0.001
++ RS = 500
++ CJO = 0
++ VJ = 1
++ M = 0.5
++ FC = 0
++ TT = 0
++ EG = 1.11
++ XTI = 3
+.ENDS
+*
